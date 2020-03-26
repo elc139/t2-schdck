@@ -69,6 +69,14 @@ A diferença entre um programa e outro é que a segunda versão não possui o `l
 
 ## Questões OpenMP
 
+### Questão 1)
+
+Implementado no arquivo [openmp/omp_dotprod.c](openmp/omp_dotprod.c).
+
+### Questão 2)
+
+Resultados para as execuções usando a implementação em OpenMP.
+
 | Threads  | Elementos | Repetições | Tempo médio 10 exec. (usec) | Speedup* |
 | -------- | --------- | ---------- | --------------------------- | -------- |
 | 1        | 1000000   | 2000       | 5.900.562,9                 | 1x       |
@@ -82,7 +90,14 @@ A diferença entre um programa e outro é que a segunda versão não possui o `l
 
 *Em relação ao valor o valor obtido quando executado com uma thread
 
+Comparação entre a implementação usando pthreads e a implementação usando OpenMP:
+
+![](comparison.jpg)
+
 ## Referências
 
-* [1] [Data Race](https://en.wikipedia.org/wiki/Race_condition#Data_race)
-* Adam Pritchard, [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [1] Data Race. [link](https://en.wikipedia.org/wiki/Race_condition#Data_race)
+* Material da disciplina
+* Slides sobre programação paralela. [link](http://www.sergioportari.com.br/wp-content/uploads/2016/08/Aula04-Programacao-Paralela.pdf)
+* Wikipedia, Concorrência. [link](https://pt.wikipedia.org/wiki/Concorr%C3%AAncia_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))
+* Adam Pritchard, Markdown Cheatsheet. [link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
