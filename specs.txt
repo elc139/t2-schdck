@@ -1,0 +1,11 @@
+* Configurações da máquina física: *
+Processador: Intel® Core™ i5-4670
+Quantidade de núcleos: 4
+Frequência do processador: 3.40 GHz
+Memória RAM: 16GB DDR3
+Sistema operacional: Windows 10 Home 1909 x64
+
+* Configurações da máquina virtual: *
+Quantidade de núcleos: 4
+Memória RAM: 4GB
+Sistema operacional: Ubuntu Server 18.04.4 x64
